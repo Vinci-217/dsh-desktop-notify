@@ -3,9 +3,8 @@ window.__ModuleLoader__.load({
   factory(require) {
     // Plain-JS Client half. This plugin renders no UI: it observes the Harness's
     // Session status and raises Windows toast notifications from the Electron
-    // renderer, so the whole capability is side effects.
-    require('react');
-
+    // renderer, so the whole capability is side effects. (`require` is part of
+    // the module-loader factory signature; nothing extra is imported here.)
     const TAG = '[dsh-desktop-notify]';
     // Cooldown so one event surfacing across several status rebuilds cannot
     // stack identical toasts.
