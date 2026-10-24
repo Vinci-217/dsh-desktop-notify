@@ -35,7 +35,7 @@ DSH 在后台跑长任务时，你可能正在别的窗口工作。两种场景�
 1. 克隆本仓库：
 
    ```bash
-   git clone https://github.com/<your-name>/dsh-desktop-notify.git
+   git clone https://github.com/Vinci-217/dsh-desktop-notify.git
    ```
 
 2. 在 Harness 的 **插件管理器（Plugin Manager）** 页面选择「从本地目录安装 bundle」，指向包含 `package.json` 的那层目录。
