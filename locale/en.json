@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Desktop Notifications",
+    "description": "Shows a Windows desktop notification when a task finishes or a question waits for you; click it to open that conversation."
+  }
+}

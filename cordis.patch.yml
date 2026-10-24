@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-desktop-notify
+      name: '@local/dsh-desktop-notify'
